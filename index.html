@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- //Tailwind css -->
+     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Eva</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#sps" class="nav__link">timeline</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Eva Murani</span><br> Web
+                    Developer</h1>
+
+                <a href="#contact" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <div class="relative flex items-center justify-center">
+                    <!-- Background Shape -->
+                    <div class="absolute -left-10 top-0 w-72 h-72 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-3xl opacity-40"></div>
+                
+                    <!-- Profile Image -->
+                    <img src="img/evamurani.jpg" alt="Eva Murani" 
+                        class="w-64 h-64 object-cover rounded-full border-4 border-white shadow-xl relative z-10">
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="design-section" id="certifications">
+            <div class="timeline">
+                <!-- Left Empty for Structure -->
+                <div class="timeline-empty"></div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-component timeline-content">
+                    <h3>C Programming</h3>
+                    <p>Certified by <span class="font-semibold">C Language Academy</span> (Govt. Approved Computer Training Institute)</p>
+                </div>
+        
+                <div class="timeline-component timeline-content">
+                    <h3>Computer Basics</h3>
+                    <p>Certified by <span class="font-semibold">C Language Academy</span> (Govt. Approved Computer Training Institute)</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty"></div>
+        
+                <div class="timeline-empty"></div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-component timeline-content">
+                    <h3>Tableau Group Participation</h3>
+                    <p>Certification of Participation in <span class="font-semibold">Gujarat Tableau Group</span></p>
+                </div>
+            </div>
+        </section>
+        
+
+    
+
+        <!--===== ABOUT =====-->
+
+        <section id="about" class="bg-gray-100 py-16 px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    I am <span class="font-semibold text-blue-600">Eva Murani</span>, a passionate and creative Web Developer with expertise in 
+                    <span class="font-semibold text-gray-900">HTML, CSS, and JavaScript</span>. I specialize in crafting visually appealing, responsive, and interactive web applications with a strong focus on user experience and modern design principles.
+                </p>
+        <section class="design-section" id="sps">
+    <div class="timeline">
+        <!-- Left Empty for Structure -->
+        <div class="timeline-empty"></div>
+        <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+        </div>
+        <div class="timeline-component timeline-content">
+            <h3>Front-End Development</h3>
+            <p>Certified in Responsive Web Design - <span class="font-semibold">freeCodeCamp</span></p>
+        </div>
+
+        <div class="timeline-component timeline-content">
+            <h3>JavaScript & Frameworks</h3>
+            <p>JavaScript Algorithms & Data Structures - <span class="font-semibold">Udemy</span></p>
+            <p>ReactJS Essentials - <span class="font-semibold">Coursera</span></p>
+        </div>
+        <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+        </div>
+        <div class="timeline-empty"></div>
+
+        <div class="timeline-empty"></div>
+        <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+        </div>
+        <div class="timeline-component timeline-content">
+            <h3>UI/UX & Design</h3>
+            <p>UI/UX Fundamentals - <span class="font-semibold">Google UX Design</span></p>
+            <p>Advanced CSS & Sass - <span class="font-semibold">Udemy</span></p>
+        </div>
+
+        <div class="timeline-component timeline-content">
+            <h3>Back-End & Databases</h3>
+            <p>Node.js & Express.js - <span class="font-semibold">Pluralsight</span></p>
+            <p>MongoDB Basics - <span class="font-semibold">MongoDB University</span></p>
+        </div>
+        <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+        </div>
+        <div class="timeline-empty"></div>
+    </div>
+</section>
+
+                <div class="mt-6 space-y-4">
+                    <p class="text-lg text-gray-700">
+                        I have successfully completed <span class="font-semibold">3 major projects</span> in HTML and <span class="font-semibold">10 major projects</span> in CSS, showcasing my ability to design elegant and fully responsive layouts.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        Currently, I am expanding my expertise in JavaScript, diving into modern frameworks like <span class="font-semibold">React.js</span> and utilizing <span class="font-semibold">Tailwind CSS</span> to enhance web performance and interactivity.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        My passion lies in solving complex problems, creating seamless digital experiences, and staying up to date with the latest industry trends to build high-quality web solutions.
+                    </p>
+                </div>
+        
+                <div class="mt-8">
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300">
+                        Connect With Me
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">
+                        I am a skilled Front-End Developer with expertise in HTML, CSS, and JavaScript. Currently, I am expanding my skills in
+                        technologies like JavaScript</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Backend</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        /*===== MENU SHOW =====*/
+        const showMenu = (toggleId, navId) => {
+            const toggle = document.getElementById(toggleId),
+                nav = document.getElementById(navId)
+
+            if (toggle && nav) {
+                toggle.addEventListener('click', () => {
+                    nav.classList.toggle('show')
+                })
+            }
+        }
+        showMenu('nav-toggle', 'nav-menu')
+
+        /*==================== REMOVE MENU MOBILE ====================*/
+        const navLink = document.querySelectorAll('.nav__link')
+
+        function linkAction() {
+            const navMenu = document.getElementById('nav-menu')
+            // When we click on each nav__link, we remove the show-menu class
+            navMenu.classList.remove('show')
+        }
+        navLink.forEach(n => n.addEventListener('click', linkAction))
+
+        /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+        const sections = document.querySelectorAll('section[id]')
+
+        const scrollActive = () => {
+            const scrollDown = window.scrollY
+
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight,
+                    sectionTop = current.offsetTop - 58,
+                    sectionId = current.getAttribute('id'),
+                    sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+
+                if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
+                    sectionsClass.classList.add('active-link')
+                } else {
+                    sectionsClass.classList.remove('active-link')
+                }
+            })
+        }
+        window.addEventListener('scroll', scrollActive)
+
+        /*===== SCROLL REVEAL ANIMATION =====*/
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '60px',
+            duration: 2000,
+            delay: 200,
+            //     reset: true
+        });
+
+        sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text', {});
+        sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img', { delay: 400 });
+        sr.reveal('.home__social-icon', { interval: 200 });
+        sr.reveal('.skills__data, .work__img, .contact__input', { interval: 200 });
+
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</body>
+
+</html>
